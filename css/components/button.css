@@ -1,0 +1,25 @@
+.btn-gradient {
+	width: 150px;
+    font-family:'Dm sans', sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    border-radius:5px;
+    background:linear-gradient(to right, #d4d1de, #8ddeec);
+    box-shadow:2px 2px 9px #eed2c7;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.btn-gradient:hover {
+    width: 200px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}

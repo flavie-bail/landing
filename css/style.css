@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Roboto&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/info.css");
+@import url("components/m111.css");
+
+
+body {
+	font-family: 'Roboto', serif;
+	font-size : 18px;
+}
+
+h1, h2, h3 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight:  bold;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+
+a:hover {
+	opacity: 0.8;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
